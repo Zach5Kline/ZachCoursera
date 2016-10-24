@@ -16,7 +16,6 @@
   <body>
 <h1>Our Menu</h1>
 
-
   <div class="col-lg-4 col-md-6 col-sm-12">
   <div id="container">
   <section id="sec1">Chicken</section>
@@ -34,7 +33,6 @@
   <section id="sec3">Sushi</section>
   <p id="p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget lacinia justo, ut aliquet mi. Fusce placerat dignissim lacinia. Integer in pharetra nisi. Donec lectus augue, pretium et tempor vitae, rhoncus sed diam. Duis placerat elit in sollicitudin suscipit. Nunc dapibus tristique fermentum. In mattis ultrices enim non ornare.</p></div>
   </div>
-
 
 </body>
 </html>

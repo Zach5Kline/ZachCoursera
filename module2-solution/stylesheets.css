@@ -1,7 +1,7 @@
 /********** Base styles **********/
 
 html {
-  font-family: Tempus Sans ITC, Comic Sans MS, sans-serif; /* 1 */
+  font-family: Tempus Sans ITC, Zarthwork, sans-serif; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
   -ms-text-size-adjust: 100%; /* 2 */
 }
@@ -33,7 +33,7 @@ section {
 }
 
 div#container {
-  background-color: #F7E3CF;
+  background-color: #4C5878;
   border: 1px solid black;
   position: relative;
   height: auto;
@@ -43,7 +43,7 @@ div#container {
 #sec1 {
   border: 1px solid black;
   text-align: center;
-  background-color: #99B0F0;
+  background-color: #7BA86B;
   font-size: 125%;
   width: 100px;
   height: 30px;
@@ -55,7 +55,7 @@ div#container {
 #sec2 {
   border: 1px solid black;
   text-align: center;
-  background-color: #D883D6;
+  background-color: #EE0909;
   font-size: 125%;
   width: 100px;
   height: 30px;
@@ -67,7 +67,7 @@ div#container {
 #sec3 {
   border: 1px solid black;
   text-align: center;
-  background-color: #7CD178;
+  background-color: #4E5AF9;
   font-size: 125%;
   width: 100px;
   height: 30px;

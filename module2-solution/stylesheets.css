@@ -40,7 +40,7 @@ div#container {
   padding: 30px 10px 0px 10px;
 }
 
-#sec1 {
+#chicken {
   border: 1px solid black;
   text-align: center;
   background-color: #7BA86B;
@@ -52,7 +52,7 @@ div#container {
   right: 0;
 }
 
-#sec2 {
+#beef {
   border: 1px solid black;
   text-align: center;
   background-color: #EE0909;
@@ -64,7 +64,7 @@ div#container {
   right: 0;
 }
 
-#sec3 {
+#sushi {
   border: 1px solid black;
   text-align: center;
   background-color: #4E5AF9;

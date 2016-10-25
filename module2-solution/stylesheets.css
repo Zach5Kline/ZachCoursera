@@ -22,7 +22,7 @@ body {
 }
 
 h1 {
-  text-size: 175%;
+  text-size: 165%;
   margin-top: 20px;
   margin-bottom: 20px;
   text-align: center;
@@ -33,20 +33,20 @@ section {
 }
 
 div#container {
-  background-color: #4C5878;
   border: 1px solid black;
   position: relative;
   height: auto;
+  background-color: #4C5878;
   padding: 30px 10px 0px 10px;
 }
 
 #chicken {
   border: 1px solid black;
   text-align: center;
-  background-color: #7BA86B;
   font-size: 125%;
   width: 100px;
   height: 30px;
+  background-color: #7BA86B;
   position: absolute;
   top: 0;
   right: 0;
@@ -55,10 +55,10 @@ div#container {
 #beef {
   border: 1px solid black;
   text-align: center;
-  background-color: #EE0909;
   font-size: 125%;
   width: 100px;
   height: 30px;
+  background-color: #EE0909;
   position: absolute;
   top: 0;
   right: 0;
@@ -67,10 +67,10 @@ div#container {
 #sushi {
   border: 1px solid black;
   text-align: center;
-  background-color: #4E5AF9;
   font-size: 125%;
   width: 100px;
   height: 30px;
+  background-color: #4E5AF9;
   position: absolute;
   top: 0;
   right: 0;

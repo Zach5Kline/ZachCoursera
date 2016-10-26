@@ -37,8 +37,8 @@ div#container {
 #sec1 {
   border: 1px solid black;
   text-align: center;
-  font-size: 100%;
-  width: 75px;
+  font-size: 150%;
+  width: 100px;
   height: 30px;
   background-color: #7BA86B;
   position: absolute;
@@ -49,8 +49,8 @@ div#container {
 #sec2 {
   border: 1px solid black;
   text-align: center;
-  font-size: 100%;
-  width: 75px;
+  font-size: 150%;
+  width: 100px;
   height: 30px;
   background-color: #EE0909;
   position: absolute;
@@ -61,8 +61,8 @@ div#container {
 #sec3 {
   border: 1px solid black;
   text-align: center;
-  font-size: 100%;
-  width: 75px;
+  font-size: 150%;
+  width: 100px;
   height: 30px;
   background-color: #4E5AF9;
   position: absolute;

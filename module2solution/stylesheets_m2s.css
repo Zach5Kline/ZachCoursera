@@ -26,7 +26,7 @@ section {
   color: white;
 }
 
-div#container-fluid {
+div#container {
   border: 1px solid black;
   position: relative;
   height: auto;

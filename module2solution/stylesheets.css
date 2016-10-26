@@ -37,7 +37,7 @@ div#container {
 #chicken {
   border: 1px solid black;
   text-align: center;
-  font-size: 125%;
+  font-size: 100%;
   width: 100px;
   height: 30px;
   background-color: #7BA86B;
@@ -49,7 +49,7 @@ div#container {
 #beef {
   border: 1px solid black;
   text-align: center;
-  font-size: 125%;
+  font-size: 100%;
   width: 100px;
   height: 30px;
   background-color: #EE0909;
@@ -61,7 +61,7 @@ div#container {
 #sushi {
   border: 1px solid black;
   text-align: center;
-  font-size: 125%;
+  font-size: 100%;
   width: 100px;
   height: 30px;
   background-color: #4E5AF9;

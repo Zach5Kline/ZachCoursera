@@ -1,16 +1,10 @@
-/********** Base styles **********/
-
 html {
   font-family: Tempus Sans ITC, Zarthwork, sans-serif; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
   -ms-text-size-adjust: 100%; /* 2 */
 }
 
-/**
- * Remove default margin.
- */
-
-* {
+{
   box-sizing: border-box;
   margin: 0;
   padding: 0;

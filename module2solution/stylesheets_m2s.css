@@ -28,9 +28,9 @@ section {
 
 div#container {
   border: 1px solid black;
-  position: relative;
+  position: absolute;
   height: auto;
-  background-color: #4C5878;
+  background-color: #10CEC9;
   padding: 30px 10px 0px 10px;
 }
 

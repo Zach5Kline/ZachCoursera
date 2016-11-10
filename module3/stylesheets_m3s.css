@@ -1,14 +1,99 @@
 body {
   font-size: 16px;
   color: #fff;
-  background-color: #61122f;
-  font-family: 'Oxygen', sans-serif;
-  
-/** HEADER **/
-#header-nav {
-    background-color: #f6b319;
-    border-radius: 0;
-    border: 0;
+  background-color: #F1948A;
+  font-family: 'Gloria Hallelujah', sans-serif;
 }
 
+/** HEADER **/
+#header-nav {
+  background-color: #F3DFCA;
+  border-radius: 0;
+  border: 0;
+}
 
+.navbar-brand {
+  padding-top: 20px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Architects Daughter', serif;
+  color: #832A0E;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  /**margin-top: 10px;**/
+}
+
+#nav-list a {
+  color: #832A0E;
+  text-align: center;
+  font-weight: bold;  
+  background-color: #EFCFF5;
+  border: 1px solid #832A0E;
+}
+
+#nav-list a:hover {
+  background: #F8EAF1;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #832A0E;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+/* HOME PAGE */
+
+#home-section {
+  background-color: #F1948A;
+  margin: 10px;
+  height: auto;
+    border: 2px solid #832A0E;
+    background-color: #90BAC4;
+}
+
+#main-content {
+  background-color: #F1948A;
+}
+
+#home-section1 {
+  margin: 20px 10px 20px 10px;
+}
+
+#chi-sec, #beef-sec, #sushi-sec {
+  height: auto;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #832A0E;
+  overflow: hidden;
+  padding: 10px;
+  background-color: #90BAC4;
+}
+
+#back-home {
+  font-family: 'Architects Daughter', serif;
+  text-align: right;
+}
+
+#back-home a {
+  color: #F9FD9E;
+  font-weight: bold;  
+}
+
+#back-home a:hover {
+  color: #F2FD08;
+}

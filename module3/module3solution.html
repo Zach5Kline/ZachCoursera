@@ -1,33 +1,107 @@
-<!doctype html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<html lang="en">
-<head>
-  <meta charset="utf-8">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
-  <title>David Chu's China Bistro</title>
-  <meta name="description" content="Come visit us today. We have the best Kosher Chinese available!">
-  <meta name="author" content="SitePoint">
+    <title>Menu for Food, LLC</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/stylesheet.css">     
+    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Gloria+Hallelujah" rel="stylesheet">  
+  </head>
 
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/stylse.css">
-  <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
- 
-</head>
-<body>
-  <script src="js/scripts.js"></script>
-  <script src="js/jquery-2.1.4.min.js"></script>
-  <script src="js/script.js"></script>
-  
- <header>
-   <nav id="header-nav" class="navbar navbar-default">
-     <div class="container">
-       <div class="navbar-header">
-         <a href="module3solution.html" class="">
-           <div id="logo-img" alt="logo image"></div>
-       
-     </div>
-   </nav>
+  <body>
+  <header>
+      <nav id="header-nav" class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <div class="navbar-brand">
+            <h1>Food, LLC</h1>
+          </div>
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+        </div>
+
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+            <li>
+              <a href="#chi-sec">Chicken</a>
+            </li>
+            <li>
+              <a href="#beef-sec">Beef</a>
+            </li>
+            <li>
+              <a href="#sushi-sec">Sushi</a>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+
   </header>
   
+  <h2 id="menu-title" class="text-center">Our Menu</h2>
+
+  <div id="main-content" class="container-fluid">
+    <div id="home-section1" class="row">
+
+
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <div id="chi-sec"><h3 class="text-center">Chicken</h3>
+	<p>Suspendisse tempus nulla id tortor facilisis blandit. Fusce tincidunt ac est vitae ultricies. Nam maximus scelerisque orci in vehicula. Nam ornare nibh molestie eros porta, vel mollis ex finibus. In nisl tortor, consectetur a pharetra at, ultricies eu sapien. Maecenas aliquam eget augue vestibulum tempor. Curabitur elementum tellus neque. Phasellus bibendum tellus eu erat tempus pellentesque. Morbi porttitor, sapien sed malesuada ultrices, neque nibh eleifend felis, ut efficitur quam sapien eget augue. </p>
+
+	<p>Donec vestibulum eros vitae facilisis lacinia. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin tristique nisl id lacus dictum tincidunt. Integer mattis libero in tortor egestas eleifend. Quisque nunc mauris, iaculis sed ex et, placerat scelerisque quam. Integer vestibulum maximus odio, eget auctor tellus fermentum feugiat. Duis non leo aliquam massa blandit ultrices eget sed lectus. Vivamus lobortis lacinia diam at egestas. Ut tincidunt nunc vel malesuada commodo. Phasellus auctor dictum sem eget lobortis. Suspendisse in volutpat arcu, nec tempor erat. In orci urna, laoreet sed quam sollicitudin, suscipit imperdiet orci. </p>
+    <div id="back-home"><a href="#menu-title">Back to Top</a></div>
+        </div>
+    
+
+      </div>
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <div id="beef-sec"><h3 class="text-center">Beef</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent varius quis mi eu auctor. Donec nec lacinia ligula, et egestas purus. Morbi sit amet ultrices dolor, non dignissim diam. Cras luctus enim in nibh dictum laoreet. Vivamus turpis ante, fermentum ut finibus nec, lobortis convallis elit. Cras vehicula consectetur libero sit amet sodales. Curabitur vitae nisl odio.</p>
+
+	<p>Donec viverra nisl at dui condimentum dictum. Mauris at ante nibh. Sed dignissim mauris justo, eget vehicula nibh pretium sed. In vitae erat a sapien venenatis tempus sed eget dolor. Sed tristique consectetur nulla euismod fermentum. Etiam aliquet arcu arcu, quis euismod eros pretium sed. Sed risus ligula, auctor in sem sit amet, pretium sodales lorem. Praesent imperdiet quis odio ac euismod. </p>
+
+	<p>Etiam maximus scelerisque pulvinar. Ut lacinia fermentum molestie. Integer dapibus, magna nec gravida aliquam, lorem lacus molestie dui, fringilla luctus arcu neque vel lorem. Sed a tellus eget quam auctor luctus efficitur eget nisi. Aliquam id ullamcorper quam, nec porttitor magna. Suspendisse cursus, lorem venenatis efficitur aliquam, libero massa ultrices diam, vitae condimentum velit ex quis libero. Nulla volutpat id tellus ut consectetur. Duis finibus fringilla velit, ut volutpat massa cursus aliquam. Donec sit amet sodales nisl. Etiam ac aliquam leo. Morbi pulvinar nunc eget dictum tincidunt. Nulla in dui vitae ex hendrerit pretium. Donec sagittis dui ut massa faucibus ultrices. Aliquam erat volutpat.</p>
+    <div id="back-home"><a href="#menu-title">Back to Top</a></div>    
+
+        </div>
+
+      </div>
+
+      <div class="col-md-4 col-sm-12 col-xs-12">
+		<div id="sushi-sec"><h3 class="text-center">Sushi</h3>
+	<p>Nulla facilisi. Praesent varius lobortis sapien, vitae placerat dolor scelerisque eget. In aliquam est tortor, vitae congue est elementum vitae. Sed gravida massa nec tempus volutpat. Maecenas non ipsum a mi ornare lacinia. Duis sollicitudin, augue ac consectetur scelerisque, diam erat hendrerit mi, et bibendum orci urna in metus. Vivamus laoreet euismod neque, at vehicula lorem rutrum eu. Integer porta laoreet metus quis aliquet.</p>
+
+	<p>Nullam vitae libero pharetra, vehicula tellus quis, tristique risus. Duis varius mauris sit amet mauris luctus pharetra. Suspendisse auctor laoreet interdum. Quisque tempor velit sit amet diam porta efficitur. Pellentesque ut sodales ligula. Fusce nec enim vitae tortor aliquet lacinia nec et urna. Quisque fringilla libero a nulla porta imperdiet. Mauris pellentesque lectus tortor, ac ullamcorper purus cursus sed. Nulla et sem leo. Phasellus cursus, neque vitae lobortis posuere, nisl arcu sagittis orci, nec congue urna lacus eu risus. Integer convallis nibh quis dolor ultrices consectetur. Curabitur eget ipsum feugiat, pretium ipsum et, vehicula tortor. Mauris lobortis condimentum diam, id convallis magna suscipit vel. Curabitur mollis velit quis ipsum bibendum, a porta neque auctor. Sed ac luctus leo.</p>
+	<div id="back-home"><a href="#menu-title">Back to Top</a></div>	
+		</div>
+
+          </div>
+
+    </div>
+  </div>
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+
 </body>
+
 </html>
